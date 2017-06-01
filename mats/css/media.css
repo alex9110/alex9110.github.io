@@ -1,0 +1,61 @@
+@media all and (max-width: 748px) { /* +20px*/
+	#logo{
+		position: absolute;
+	margin: 10px 0 0 10px;
+	}
+	header ul{
+		margin-left: 10.3%;
+	}
+	header ul li{
+		margin-right: 0;
+	}
+}
+@media all and (max-width: 679px) { /* +20px*/
+	.order{
+		position: absolute;
+		top: 24px;
+		right: 0;
+	}
+}
+@media all and (max-width: 760px) {
+	.answer{
+		width: auto;
+	}
+	.ask{
+		width: auto;
+		max-width: 553px;
+	}
+	.avatar{
+		width: 50px;
+		height: 50px;
+	}
+	.answer .avatar{
+		right: -10px;
+		top: -24px;
+	}
+	.ask .avatar{
+		left: -17px;
+		top: -24px;
+	}
+}
+
+@media all and (max-width: 620px) {	
+	.cont{
+		    margin: 50px 11% 0px 11%;
+	}
+	.text{
+		width: auto;
+		height: 110px;
+		background-image: url(../img/text.png);
+		background-repeat: no-repeat;
+		background-position: 0 9px;
+		-webkit-background-size: 100%;
+		background-size: 100%;
+		margin: 0 0 28px 0;
+	}
+}
+@media all and (max-width: 773px) { /* +20px*/
+	.bigForm{
+		max-width: 410px;
+	}
+}
