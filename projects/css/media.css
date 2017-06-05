@@ -18,12 +18,20 @@
 	}
 }
 @media all and (max-width: 760px) {
+	#button{
+		margin-right: 0;
+	}
 	.answer{
 		width: auto;
+		margin-right: 20px;
 	}
+/*	.answerMessage p:nth-child(2){
+		margin-bottom: 10px;
+	}*/
 	.ask{
 		width: auto;
 		max-width: 553px;
+		margin-left: 20px;
 	}
 	.avatar{
 		width: 50px;
