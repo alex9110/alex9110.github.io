@@ -1,0 +1,68 @@
+@media all and (max-width: 860px) {
+	header{
+		min-height: 124px;
+	}
+	.close{
+		max-height: 0;
+		border: none;
+	}
+	.logo{
+		margin: 10px 10px 10px 10px;
+		font-size: 35px;
+	}
+	.navBut{
+		display: block; 
+	}
+	nav{
+		position: static;
+		text-align: center;
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		margin-bottom: 5px;
+		overflow: hidden;
+		max-height: 175px;
+		transition: max-height 300ms;
+	}
+	nav .nav li{
+		float: none;
+		margin: 0 20px 7px 20px;
+		font-weight: bold;
+	} 
+
+	.slider .image{
+		width: 100%;
+	}
+	.slider .description{
+		outline: 0px solid #000;
+		background-color: #292929;
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+	.slider .description h2{
+		margin: 13px 0 13px 0 ;
+	}
+	.slider .descriptionText{
+		margin: 0 10px 5px 10px;
+	}
+}
+@media all and (max-width: 939px) {
+	.lastEvents{
+		float: none;
+		margin: auto;
+	}
+	.rightContent{
+		width: 100%;
+		text-align: center; 
+		float: none;
+		margin: auto;
+	}
+	.service{
+		display: inline-block;
+		text-align: left;
+	}
+	.search{
+		display: inline-block;
+		margin: 0 10px 0 30px;
+	}
+}

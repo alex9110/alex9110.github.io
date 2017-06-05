@@ -4,19 +4,27 @@
 	<meta charset="UTF-8">
 	<title>Fitness Club</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="libs/icons/css/fontello.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <div class="topLine"></div>
 <div class="wrapper">
 	<header>
-		<div class="logo"><p>Fitness<br>Club.</p></div>
-			<ul class="social">
-				<li></li>
-				<li></li>
-			</ul>
-		<nav>
-			<ul  class="nav">
+		<div class="logo"><p><a href="#">Fitness<br>Club.</a><p></div>
+		<div style="clear: both;"></div>
+		<ul class="social">
+			<li><i class="icon-twitter-bird"></i></li>
+			<li><i class="icon-facebook"></i></li>
+		</ul>
+		<div class="navBut">
+			<li></li>
+			<li></li>
+			<li></li>
+		</div>	
+		<nav class="close">
+			<ul class="nav">
 				<li>About</li>
 				<li>Trainings</li>
 				<li>Timetable</li>
@@ -30,17 +38,17 @@
 		<div class="slider">
 			<div class="image">
 				<div class="slideButtons">
-					<div class="prev slideBut"></div>
+					<div class="prev slideBut"><i class="icon-angle-left"></i></div>
 					<div class="indicator">
 						<span class="active"></span>
 						<span></span>
 						<span></span>
 					</div>
-					<div class="next slideBut"></div>
+					<div class="next slideBut"><i class="icon-angle-right"></i></div>
 				</div>
 			</div>
 			<div class="description">
-				<h2>Special<br>Program</h2>
+				<h2>Special Program</h2>
 				<p class="descriptionText">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
 				<div class="button"><p><span>read more</span></p></div>
 			</div>
@@ -52,17 +60,19 @@
 			<div class="lastEvents">
 				<div class="mainTitle"><h2>Lastest events</h2></div>
 				<section>
-					<div class="foto"></div>
-					<div class="article">
+					<div class="foto foto1"></div>
+					<!-- <div class="article"> -->
 						<p class="title">Ut wisi enim ad minim veniamis nostrud</p>
 						<p class="minArticle">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.</p>
-					</div>
+						<div style="clear: both;"></div>
+					<!-- </div> -->
 				</section>
 				<section>
-					<div class="foto"></div>
+					<div class="foto foto2"></div>
 					<div class="article">
 						<p class="title">Duis autem vel eum iriure dolor </p>
 						<p class="minArticle">Hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilis lorem ipsum dolor.</p>
+						<div style="clear: both;"></div>
 					</div>
 				</section>
 			</div>
@@ -94,6 +104,7 @@
 		</div>
 	</footer>
 </div>
-	<script src="js/jquery.min.js"></script>
+	<script src="libs/jquery/jquery.min.js"></script>
+	<script src="../js/main.js"></script>
 </body>
 </html>
