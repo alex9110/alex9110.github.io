@@ -50,6 +50,10 @@
 	.lastEvents{
 		float: none;
 		margin: auto;
+		padding: 0 10px;
+	}
+	.minArticle {
+		margin:7px 0 0 0;
 	}
 	.rightContent{
 		width: 100%;

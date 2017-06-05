@@ -284,7 +284,7 @@ nav .nav li:hover{
 }
 .minArticle{
 	line-height: 1.55;
-	margin: 7px 31px 0 10px;
+	margin: 7px 31px 0 0px;
 }
 .rightContent{
 	outline: 0px solid #000;
@@ -311,7 +311,7 @@ nav .nav li:hover{
 	line-height: 1.9;
 }
 .search{
-	outline: opx solid #000;
+	outline: 0px solid #000;
 }
 .search h2{
 	margin: 0 5px 33px 7px;
