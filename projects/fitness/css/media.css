@@ -29,20 +29,20 @@
 		font-weight: bold;
 	} 
 
-	.slider .image{
+	.mainSlider .image{
 		width: 100%;
 	}
-	.slider .description{
+	.mainSlider .description{
 		outline: 0px solid #000;
 		background-color: #292929;
 		width: 100%;
 		height: auto;
-		text-align: center;
+		text-aligmainSlidern: center;
 	}
-	.slider .description h2{
+	.mainSlider .description h2{
 		margin: 13px 0 13px 0 ;
 	}
-	.slider .descriptionText{
+	.mainSlider .descriptionText{
 		margin: 0 10px 5px 10px;
 	}
 }

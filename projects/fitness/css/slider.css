@@ -1,0 +1,21 @@
+.slider{ 	/*определим стили для слайдера*/
+	background-position: 0 0;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.fon1{
+	background-image: url(../img/slide1.jpg);
+	left: 0%;
+}
+.fon2{
+	background-image: url(../img/slide2.jpg);
+	left: 0%;
+}
+.fon3{
+	background-image: url(../img/slide3.jpg);
+	left: 0%;
+}

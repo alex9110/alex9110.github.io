@@ -73,6 +73,7 @@ header{
 	color: #282828;
 	background-image: url(../img/bg0.jpg);
 }
+
 .navBut{
 	border:1px solid #fff;
 	background-color: #6C6C6C;
@@ -121,22 +122,23 @@ nav .nav li:hover{
 	position: relative;
 	overflow: hidden;
 }
-.slider{
+.mainSlider{
 	outline: 0px solid #000;
 	min-height: 416px;
 	width: 100%;
 	position: relative;
 	overflow: hidden;
 }
-.slider .image{
+.mainSlider .image{
 	width: 68.085%;
 	height: 416px;
-	background-image: url(../img/slide1.jpg);
+	/*background-image: url(../img/slide1.jpg);*/
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	float: left;
 	position: relative;
+	overflow: hidden;
 }
 .image .slideButtons{
 	position: absolute;
@@ -144,23 +146,18 @@ nav .nav li:hover{
 	bottom: 0px;
 	text-align: center;
 }
-.indicator{
+.indicators{
 	display: inline-block;
 }
-.indicator span{
+.indicators span{
 	display: inline-block;
 	background-color: #fff;
 	margin: 13px 0 0 4px;
 	height: 13px;
 	width: 13px;
 	border-radius: 50%;
-	cursor: pointer;
-	transition: 200ms;
 }
-.indicator span.active{
-	background-color: #292929;
-}
-.indicator span:hover{
+.indicators span:hover{
 	background-color: #292929;
 }
 .slideBut{
@@ -185,14 +182,14 @@ nav .nav li:hover{
 .next{
 	float: right;
 }
-.slider .description{
+.mainSlider .description{
 	outline: 0px solid #000;
 	background-color: #292929;
 	width: 31.915%;
 	height:416px;
 	float: left;
 }
-.slider .description h2{
+.mainSlider .description h2{
 	color: #6C6C6C;
 	font-size: 45px;
 	margin: 34px 5px 34px 44px;
@@ -201,7 +198,7 @@ nav .nav li:hover{
 	letter-spacing: -1px;
 
 }
-.slider .descriptionText{
+.mainSlider .descriptionText{
 	color: #4F4F4F;
 	margin: 0 45px 32px 47px;
 	line-height: 1.8;
@@ -284,7 +281,7 @@ nav .nav li:hover{
 }
 .minArticle{
 	line-height: 1.55;
-	margin: 7px 31px 0 0;
+	margin: 7px 31px 0 0px;
 }
 .rightContent{
 	outline: 0px solid #000;
