@@ -6,12 +6,14 @@
 	text-decoration: none;
 	box-sizing: border-box;		/*изменить алгоритм подщета размеров блока*/
 }
-a{
-	color: #fff;
+a:hover, a {
+    color: inherit;
+    text-decoration: inherit;
 }
 li{
 	 list-style-type:none;
 }
+
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 body{
 	background: url(../img/bg1.jpg) no-repeat center fixed;
