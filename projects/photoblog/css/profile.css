@@ -1,0 +1,71 @@
+.about_me {
+  overflow: hidden;
+  position: relative;
+  margin: 0 0.5%; }
+
+.avatar {
+  background-color: #ccc;
+  margin: 0 2% 1% 0;
+  float: left;
+  width: 500px;
+  height: auto; }
+
+.desk {
+  display: inline;
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 1.5; }
+  .desk span {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 30px; }
+
+.social2 {
+  text-align: center;
+  margin-top: 10px; }
+  .social2 span {
+    border: 1px solid #000;
+    -webkit-border-radius: 8px;
+            border-radius: 8px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px; }
+    .social2 span a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+
+.contact {
+  max-width: 800px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  right: 50px; }
+  .contact p {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px; }
+
+.tel {
+  color: #F5BCE5;
+  font-size: 25px;
+  margin-bottom: 15px;
+  position: relative; }
+
+.tel:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  bottom: -5px;
+  left: 0%; }
+
+.mail {
+  text-align: center;
+  margin: 10px; }
+  .mail p {
+    font-weight: bold;
+    font-size: 20px;
+    color: #F5BCE5; }

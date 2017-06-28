@@ -1,0 +1,81 @@
+.service_box {
+  margin: 0 0.5%;
+  width: 100%; }
+
+.service {
+  background-color: #F5F9FF;
+  margin: auto;
+  margin: 50px 0px 20px 0px;
+  overflow: hidden;
+  position: relative; }
+  .service .service_name {
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    letter-spacing: 1px; }
+  .service .service_name:before {
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    width: 20%;
+    border-top: 1px dashed  #000; }
+  .service .service_name:after {
+    content: "";
+    display: inline-block;
+    margin-left: 10px;
+    width: 20%;
+    border-top: 1px dashed  #000; }
+  .service .photo {
+    background-color: #ccc;
+    float: left;
+    height: 500px;
+    width: auto;
+    margin: 0px 40px 0px 0; }
+  .service .tel {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    color: #EA4AE1;
+    font-weight: bold;
+    font-size: 19px; }
+
+.desc {
+  display: inline-block;
+  text-align: left;
+  margin-top: 20px;
+  max-width: 50%;
+  font-size: 17px;
+  letter-spacing: 1px; }
+  .desc li {
+    margin-bottom: 10px; }
+  .desc li:last-child {
+    margin-top: 25px;
+    font-weight: bold; }
+
+.cost {
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold; }
+  .cost span {
+    line-height: 2; }
+
+.extra_service {
+  background-color: #F5F9FF;
+  width: 100%;
+  text-align: center;
+  margin: 0 0.5%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  overflow: hidden; }
+  .extra_service h2 {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .extra_service ul {
+    display: inline-block; }
+    .extra_service ul li {
+      text-align: left;
+      margin-bottom: 10px;
+      letter-spacing: 1px; }
