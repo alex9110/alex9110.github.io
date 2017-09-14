@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Welcome</title>
+    <title>Works</title>
     <meta content="" name="author"/>
     <meta content="" name="description"/>
     <meta content="" name="keywords"/>
@@ -22,25 +22,180 @@
         </div>
       </div>
     </div>
-    <div class="index-wrapper"><?php echo('hello')?>
-      <div class="parallax">
-        <div class="parallax__layer"></div>
-        <div class="parallax__layer"></div>
-        <div class="parallax__layer"></div>
-        <div class="parallax__layer"></div>
-        <div class="parallax__layer"></div>
-        <div class="parallax__layer"></div>
-      </div><span id="authorization-button">Авторизоваться</span>
-      <div class="index-content">
-        <div class="plate" id="plate">
-          <div class="index-content-box plate-front">
-            <div class="index-content-main">
-              <div class="ava"><img class="ava__img" src="/assets/img/ava.jpg" alt="avatar"/></div>
-              <div class="autor">
-                <h1 class="autor__name">Александр Лычик</h1>
-                <h3 class="autor__description">Личный сайт веб разработчика</h3>
+    <div class="works-wrapper">
+      <section class="section-header"><a id="hidden-link-top" name="hidden-link-top"></a>
+        <header class="portfolio_header">
+          <div class="curtains">
+            <nav class="main-nav" id="main-nav">
+              <ul class="main-nav-list">
+                <li class="main-nav-list-item"><a href="index.html">Главная</a></li>
+                <li class="main-nav-list-item"><a href="works.html">Мои работы</a></li>
+                <li class="main-nav-list-item"><a href="about.html">Обо мне</a></li>
+                <li class="main-nav-list-item"><a href="blog.html">Блог</a></li>
+              </ul>
+            </nav>
+            <div class="curtain-left"></div>
+            <div class="curtain-right"></div>
+          </div>
+          <div class="portfolio_header_bg">
+            <div class="parallax_scroll">
+              <div class="parallax__layer"></div>
+              <div class="parallax__layer"></div>
+              <div class="parallax__layer"></div>
+              <div class="parallax__layer"></div>
+              <div class="parallax__layer"></div>
+              <div class="parallax__layer"></div>
+            </div>
+            <div class="portfolio_header_bg1"></div>
+          </div>
+          <div class="social social-white">
+            <ul class="social__list">
+              <li class="social__item">
+                <svg>
+                  <use xlink:href="#vk_icon"></use>
+                </svg>
+              </li>
+              <li class="social__item"> 
+                <svg>
+                  <use xlink:href="#git_icon"></use>
+                </svg>
+              </li>
+              <li class="social__item">
+                <svg>
+                  <use xlink:href="#in_icon"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-button" id="menu-button"><span></span><span></span><span></span></div>
+          <div class="index-content">
+            <div class="index-content-box">
+              <div class="index-content-main index-content-main_transparent">
+                <div class="ava ava_bigger"><img class="ava__img" src="/assets/img/ava.jpg" alt="avatar"/></div>
+                <div class="autor">
+                  <h1 class="autor__name">Александр Лычик</h1>
+                  <h3 class="autor__description">Личный сайт веб разработчика</h3>
+                </div>
               </div>
-              <div class="social">
+            </div>
+          </div>
+        </header>
+        <div class="arrow-down"><a id="show-works" href="#second-section">
+            <svg>
+              <use xlink:href="#arrow_down_icon"></use>
+            </svg></a></div>
+      </section><a id="second-section" name="second-section"></a>
+      <section class="section-works">
+        <section class="section-works__title">
+          <h2>Мои работы</h2>
+        </section>
+        <div class="works-box">
+          <div class="work-description">
+            <div class="work-description-box">
+              <div class="work-description__title">
+                <h2 class="animateText">Сайт школы онлайн <br>образования</h2>
+              </div>
+              <div class="work-description__technologies">
+                <p class="animateText">html, css, javascript</p>
+              </div>
+              <div class="work-description__botton">Посмотреть сайт<a href="#"></a>
+                <svg>
+                  <use xlink:href="#link_icon"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="slider">
+            <div class="slider__image-box">
+              <ul class="slider__images-list">
+                <li class="slider__images-item">
+                  <div class="slider__image-description">
+                    <h2>Сайт школы онлайн образования</h2>
+                    <p>html, css, javascript</p>
+                  </div>
+                  <h1>1</h1><img src="/assets/img/works_image/work_1.png" alt="work_1"/>
+                </li>
+                <li class="slider__images-item">
+                  <div class="slider__image-description">
+                    <h2>Сайт круче первого номер 2</h2>
+                    <p>html html html</p>
+                  </div>
+                  <h1>2</h1><img src="/assets/img/works_image/work_2.png" alt="work_2"/>
+                </li>
+                <li class="slider__images-item">
+                  <div class="slider__image-description">
+                    <h2>Проэкт круче крутых яиц номер 3</h2>
+                    <p>jquery jquery jquery</p>
+                  </div>
+                  <h1>3</h1><img src="/assets/img/works_image/work_0.jpg" alt="work_3"/>
+                </li>
+              </ul>
+            </div>
+            <div class="slider__buttons">
+              <div class="slider__buttons-bottom">
+                <ul class="slider__bottom-preview">
+                  <li>
+                    <h1>3</h1><img src="/assets/img/works_image/work_0.jpg" alt="work_3"/>
+                  </li>
+                  <li>
+                    <h1>2</h1><img src="/assets/img/works_image/work_2.png" alt="work_2"/>
+                  </li>
+                </ul><span class="icon left">
+                  <svg>
+                    <use xlink:href="#arrow_down_icon"></use>
+                  </svg></span>
+              </div>
+              <div class="slider__buttons-top">
+                <ul class="slider__top-preview">
+                  <li>
+                    <h1>2</h1><img src="/assets/img/works_image/work_2.png" alt="work_1"/>
+                  </li>
+                  <li>
+                    <h1>3</h1><img src="/assets/img/works_image/work_3.png" alt="work_2"/>
+                  </li>
+                </ul><span class="icon right">
+                  <svg>
+                    <use xlink:href="#arrow_bottom_icon"></use>
+                  </svg></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-contact-form">
+        <div class="contact-form-box">
+          <form class="contact-form">
+            <div class="contact-form__header">Связаться со мной</div>
+            <input id="name" type="text" name="name" placeholder="Имя"/>
+            <input id="mail" type="email" name="mail" placeholder="Email"/>
+            <textarea id="message" type="text" name="message" placeholder="Ваше сообщение"></textarea>
+          </form>
+          <div class="contact-form__buttons">  
+            <input id="send-message" type="button" value="Отправить"/>
+            <input id="reset" type="reset" value="Очистить"/>
+          </div>
+          <div class="blur">
+            <div class="blur__bg"></div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="arrow-top"><a id="show-works" href="#hidden-link-top">
+            <svg>
+              <use xlink:href="#arrow_bottom_icon"></use>
+            </svg></a></div>
+        <div class="footer-box">
+          <div class="footer-menu">
+            <nav class="footer-nav">
+              <ul class="footer-nav__list">
+                <li class="footer-nav__item"><a href="index.html">Главная</a></li>
+                <li class="footer-nav__item"> <a href="works.html">Мои работы</a></li>
+                <li class="footer-nav__item"> <a href="about.html">Обо мне</a></li>
+                <li class="footer-nav__item"> <a href="blog.html">Блог</a></li>
+              </ul>
+            </nav>
+            <div class="footer-social">
+              <div class="social social-in-circle">
                 <ul class="social__list">
                   <li class="social__item">
                     <svg>
@@ -60,63 +215,13 @@
                 </ul>
               </div>
             </div>
-            <nav class="index-nav">
-              <ul class="index-nav__list">
-                <li class="index-nav__item-works">Мои работы<a href="works.html"></a></li>
-                <li class="index-nav__item-about">Обо мне<a href="about.html"></a></li>
-                <li class="index-nav__item-blog">Блог<a href="blog.html"></a></li>
-              </ul>
-            </nav>
           </div>
-          <div class="login-wrapper plate-back">
-            <div class="login-box">
-              <form class="login-form" id="login-form" action="admin.html" method="post">
-                <h1 class="login-form__header">Авторизуйтесь</h1>
-                <div class="login-form__login">
-                  <label for="login">
-                    <svg>
-                      <use xlink:href="#login_icon"></use>
-                    </svg>
-                  </label>
-                  <input id="login" maxlength="14" type="text" placeholder="Логин" name="login"/>
-                </div>
-                <div class="login-form__password">
-                  <label for="password">
-                    <svg>
-                      <use xlink:href="#password_icon"></use>
-                    </svg>
-                  </label>
-                  <input id="password" maxlength="14" type="password" placeholder="Пароль" name="pas"/>
-                </div>
-                <div class="login-form-checks-wrapper">
-                  <p class="checkbox-box">
-                    <input type="checkbox" id="loginform_check"/>
-                    <label for="loginform_check">Я человек</label>
-                  </p>
-                  <div class="login-form__radio">
-                    <p>Вы точно не робот?</p>
-                    <input type="radio" id="radio_yes" name="answer" value="true"/>
-                    <label for="radio_yes">Да<span></span></label>
-                    <input checked="checked" type="radio" id="radio_no" name="answer" value="false"/>
-                    <label for="radio_no">Не уверен</label>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <nav class="login-nav">
-              <ul class="login-nav__list">
-                <li class="login-nav__to-main" id="to-main-but">Назад</li>
-                <li class="login-nav__enter">Войти
-                  <input type="submit" name="login-nav__enter" value="" form="login-form" id="login-nav__enter"/>
-                </li>
-              </ul>
-            </nav>
+          <div class="footer-copyright">
+            <div class="footer-copyright__left">Я веб разваботчик, из Хмельницкого, и этот сайт я сделал в рамках одного из обучающих курсов, найденых на просторах интернета.</div>
+            <div class="footer-copyright__right">© Александр Лычик | создано с любовью <span> 2017<span> </div>
           </div>
         </div>
-      </div>
-      <div class="index-copyright">
-        <p class="index-copyright__autor">© Александр Лычик <span>создано с любовью | 2017<span></p>
-      </div>
+      </footer>
     </div>
     <script src="/assets/js/foundation.js" defer="defer"></script>
     <script src="/assets/js/app.js" defer="defer"></script>

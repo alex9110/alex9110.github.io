@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Welcome</title>
+    <title>About</title>
     <meta content="" name="author"/>
     <meta content="" name="description"/>
     <meta content="" name="keywords"/>
@@ -22,25 +22,209 @@
         </div>
       </div>
     </div>
-    <div class="index-wrapper"><?php echo('hello')?>
-      <div class="parallax">
-        <div class="parallax__layer"></div>
-        <div class="parallax__layer"></div>
-        <div class="parallax__layer"></div>
-        <div class="parallax__layer"></div>
-        <div class="parallax__layer"></div>
-        <div class="parallax__layer"></div>
-      </div><span id="authorization-button">Авторизоваться</span>
-      <div class="index-content">
-        <div class="plate" id="plate">
-          <div class="index-content-box plate-front">
-            <div class="index-content-main">
-              <div class="ava"><img class="ava__img" src="/assets/img/ava.jpg" alt="avatar"/></div>
-              <div class="autor">
-                <h1 class="autor__name">Александр Лычик</h1>
-                <h3 class="autor__description">Личный сайт веб разработчика</h3>
+    <div class="about-wrapper">
+      <section class="section-header"><a id="hidden-link-top" name="hidden-link-top"></a>
+        <header class="portfolio_header">
+          <div class="curtains">
+            <nav class="main-nav" id="main-nav">
+              <ul class="main-nav-list">
+                <li class="main-nav-list-item"><a href="index.html">Главная</a></li>
+                <li class="main-nav-list-item"><a href="works.html">Мои работы</a></li>
+                <li class="main-nav-list-item"><a href="about.html">Обо мне</a></li>
+                <li class="main-nav-list-item"><a href="blog.html">Блог</a></li>
+              </ul>
+            </nav>
+            <div class="curtain-left"></div>
+            <div class="curtain-right"></div>
+          </div>
+          <div class="portfolio_header_bg">
+            <div class="parallax_scroll">
+              <div class="parallax__layer"></div>
+              <div class="parallax__layer"></div>
+              <div class="parallax__layer"></div>
+              <div class="parallax__layer"></div>
+              <div class="parallax__layer"></div>
+              <div class="parallax__layer"></div>
+            </div>
+            <div class="portfolio_header_bg1"></div>
+          </div>
+          <div class="social social-white">
+            <ul class="social__list">
+              <li class="social__item">
+                <svg>
+                  <use xlink:href="#vk_icon"></use>
+                </svg>
+              </li>
+              <li class="social__item"> 
+                <svg>
+                  <use xlink:href="#git_icon"></use>
+                </svg>
+              </li>
+              <li class="social__item">
+                <svg>
+                  <use xlink:href="#in_icon"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-button" id="menu-button"><span></span><span></span><span></span></div>
+          <div class="index-content">
+            <div class="index-content-box">
+              <div class="index-content-main index-content-main_transparent">
+                <div class="ava ava_bigger"><img class="ava__img" src="/assets/img/ava.jpg" alt="avatar"/></div>
+                <div class="autor">
+                  <h1 class="autor__name">Александр Лычик</h1>
+                  <h3 class="autor__description">Личный сайт веб разработчика</h3>
+                </div>
               </div>
-              <div class="social">
+            </div>
+          </div>
+        </header>
+        <div class="arrow-down"><a id="show-works" href="#second-section">
+            <svg>
+              <use xlink:href="#arrow_down_icon"></use>
+            </svg></a></div>
+      </section>
+      <section class="section-about">
+        <div class="about-me">
+          <div class="about-me__title"><a id="second-section" name="second-section"></a>
+            <h2>Обо мне</h2>
+          </div>
+          <div class="about-me-description-box">
+            <div class="about-me-center-box"> 
+              <div class="about-me-photo"><img class="ava__img" src="/assets/img/ava.jpg" alt="avatar"/></div>
+              <div class="about-me-description">
+                <h2>Кто я</h2>
+                <p>Я веб разработчик. мне 25 лет. Я занимаюсь разработкой современных веб приложений. Мне нравится делать интересные и современные проэкты.</p>
+                <p>Этот сайт я сделал в рамках обучения в школе онлайн образования LoftSchool. Чуть позже я освежу в нём свой контент. А пока посмотрите, как тут всё класно и красиво!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="my-skills">
+          <div class="my-skills__title">
+            <h2>Чем я могу быть вам <br> полезен</h2>
+          </div>
+          <div class="my-skills__desk">
+            <p>Больше всего меня привлекает Frontend разработка, но я также знаком и могу решать не сложные задачи на Backend. Но давайте по порядку.</p>
+          </div>
+          <div class="my-skills-box">
+            <div class="my-skills-box-ceenter">
+              <div class="my-skills-list-box">
+                <h3>Frontend</h3>
+                <ul class="my-skills-list">
+                  <li class="my-skills__item" data-skill="10"><svg width="300" height="300" class="g-circles" viewBox="0 0 300 300">
+<circle r="115" cx="150" cy="150" stroke="#DFDCD5" fill="none" />
+<circle r="115" cx="150" cy="150" stroke="#19C2AB" transform="rotate(-90 150 150)" class="sector" /> 
+</svg><span>HTML 5</span>
+                  </li>
+                  <li class="my-skills__item" data-skill="20"><svg width="300" height="300" class="g-circles" viewBox="0 0 300 300">
+<circle r="115" cx="150" cy="150" stroke="#DFDCD5" fill="none" />
+<circle r="115" cx="150" cy="150" stroke="#19C2AB" transform="rotate(-90 150 150)" class="sector" /> 
+</svg><span>CSS3</span>
+                  </li>
+                  <li class="my-skills__item" data-skill="30"><svg width="300" height="300" class="g-circles" viewBox="0 0 300 300">
+<circle r="115" cx="150" cy="150" stroke="#DFDCD5" fill="none" />
+<circle r="115" cx="150" cy="150" stroke="#19C2AB" transform="rotate(-90 150 150)" class="sector" /> 
+</svg><span>JavaScript &amp; jQuery</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="my-skills-list-box">
+                <h3>Backend</h3>
+                <ul class="my-skills-list">
+                  <li class="my-skills__item" data-skill="40"><svg width="300" height="300" class="g-circles" viewBox="0 0 300 300">
+<circle r="115" cx="150" cy="150" stroke="#DFDCD5" fill="none" />
+<circle r="115" cx="150" cy="150" stroke="#19C2AB" transform="rotate(-90 150 150)" class="sector" /> 
+</svg><span>php</span>
+                  </li>
+                  <li class="my-skills__item" data-skill="50"><svg width="300" height="300" class="g-circles" viewBox="0 0 300 300">
+<circle r="115" cx="150" cy="150" stroke="#DFDCD5" fill="none" />
+<circle r="115" cx="150" cy="150" stroke="#19C2AB" transform="rotate(-90 150 150)" class="sector" /> 
+</svg><span>mySQL</span>
+                  </li>
+                  <li class="my-skills__item" data-skill="60"><svg width="300" height="300" class="g-circles" viewBox="0 0 300 300">
+<circle r="115" cx="150" cy="150" stroke="#DFDCD5" fill="none" />
+<circle r="115" cx="150" cy="150" stroke="#19C2AB" transform="rotate(-90 150 150)" class="sector" /> 
+</svg><span>Node JS &amp; npm</span>
+                  </li>
+                  <li class="my-skills__item" data-skill="70"><svg width="300" height="300" class="g-circles" viewBox="0 0 300 300">
+<circle r="115" cx="150" cy="150" stroke="#DFDCD5" fill="none" />
+<circle r="115" cx="150" cy="150" stroke="#19C2AB" transform="rotate(-90 150 150)" class="sector" /> 
+</svg><span>Mongo.db</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="my-skills-list-box">
+                <h3>WorkFlow</h3>
+                <ul class="my-skills-list">
+                  <li class="my-skills__item" data-skill="80"><svg width="300" height="300" class="g-circles" viewBox="0 0 300 300">
+<circle r="115" cx="150" cy="150" stroke="#DFDCD5" fill="none" />
+<circle r="115" cx="150" cy="150" stroke="#19C2AB" transform="rotate(-90 150 150)" class="sector" /> 
+</svg><span>Git</span>
+                  </li>
+                  <li class="my-skills__item" data-skill="90"><svg width="300" height="300" class="g-circles" viewBox="0 0 300 300">
+<circle r="115" cx="150" cy="150" stroke="#DFDCD5" fill="none" />
+<circle r="115" cx="150" cy="150" stroke="#19C2AB" transform="rotate(-90 150 150)" class="sector" /> 
+</svg><span>Gulp</span>
+                  </li>
+                  <li class="my-skills__item" data-skill="100"><svg width="300" height="300" class="g-circles" viewBox="0 0 300 300">
+<circle r="115" cx="150" cy="150" stroke="#DFDCD5" fill="none" />
+<circle r="115" cx="150" cy="150" stroke="#19C2AB" transform="rotate(-90 150 150)" class="sector" /> 
+</svg><span>Bower</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="section-contacts">
+        <div class="contacts">
+          <div class="contacts__title">
+            <h3>Контакты</h3>
+          </div>
+          <ul class="contacts__list">
+            <li class="contacts__item">skype
+              <svg>
+                <use xlink:href="#skype_icon"></use>
+              </svg>
+            </li>
+            <li class="contacts__item">lychyk9110gmail.com
+              <svg>
+                <use xlink:href="#envelope_icon"></use>
+              </svg>
+            </li>
+            <li class="contacts__item">+380960834315
+              <svg>
+                <use xlink:href="#phone_icon"></use>
+              </svg>
+            </li>
+            <li class="contacts__item">г. Киев ул. Пушкина дом Калатушкина
+              <svg>
+                <use xlink:href="#map_marker_icon"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="arrow-top"><a id="show-works" href="#hidden-link-top">
+            <svg>
+              <use xlink:href="#arrow_bottom_icon"></use>
+            </svg></a></div>
+        <div class="footer-box">
+          <div class="footer-menu">
+            <nav class="footer-nav">
+              <ul class="footer-nav__list">
+                <li class="footer-nav__item"><a href="index.html">Главная</a></li>
+                <li class="footer-nav__item"> <a href="works.html">Мои работы</a></li>
+                <li class="footer-nav__item"> <a href="about.html">Обо мне</a></li>
+                <li class="footer-nav__item"> <a href="blog.html">Блог</a></li>
+              </ul>
+            </nav>
+            <div class="footer-social">
+              <div class="social social-in-circle">
                 <ul class="social__list">
                   <li class="social__item">
                     <svg>
@@ -60,63 +244,13 @@
                 </ul>
               </div>
             </div>
-            <nav class="index-nav">
-              <ul class="index-nav__list">
-                <li class="index-nav__item-works">Мои работы<a href="works.html"></a></li>
-                <li class="index-nav__item-about">Обо мне<a href="about.html"></a></li>
-                <li class="index-nav__item-blog">Блог<a href="blog.html"></a></li>
-              </ul>
-            </nav>
           </div>
-          <div class="login-wrapper plate-back">
-            <div class="login-box">
-              <form class="login-form" id="login-form" action="admin.html" method="post">
-                <h1 class="login-form__header">Авторизуйтесь</h1>
-                <div class="login-form__login">
-                  <label for="login">
-                    <svg>
-                      <use xlink:href="#login_icon"></use>
-                    </svg>
-                  </label>
-                  <input id="login" maxlength="14" type="text" placeholder="Логин" name="login"/>
-                </div>
-                <div class="login-form__password">
-                  <label for="password">
-                    <svg>
-                      <use xlink:href="#password_icon"></use>
-                    </svg>
-                  </label>
-                  <input id="password" maxlength="14" type="password" placeholder="Пароль" name="pas"/>
-                </div>
-                <div class="login-form-checks-wrapper">
-                  <p class="checkbox-box">
-                    <input type="checkbox" id="loginform_check"/>
-                    <label for="loginform_check">Я человек</label>
-                  </p>
-                  <div class="login-form__radio">
-                    <p>Вы точно не робот?</p>
-                    <input type="radio" id="radio_yes" name="answer" value="true"/>
-                    <label for="radio_yes">Да<span></span></label>
-                    <input checked="checked" type="radio" id="radio_no" name="answer" value="false"/>
-                    <label for="radio_no">Не уверен</label>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <nav class="login-nav">
-              <ul class="login-nav__list">
-                <li class="login-nav__to-main" id="to-main-but">Назад</li>
-                <li class="login-nav__enter">Войти
-                  <input type="submit" name="login-nav__enter" value="" form="login-form" id="login-nav__enter"/>
-                </li>
-              </ul>
-            </nav>
+          <div class="footer-copyright">
+            <div class="footer-copyright__left">Я веб разваботчик, из Хмельницкого, и этот сайт я сделал в рамках одного из обучающих курсов, найденых на просторах интернета.</div>
+            <div class="footer-copyright__right">© Александр Лычик | создано с любовью <span> 2017<span> </div>
           </div>
         </div>
-      </div>
-      <div class="index-copyright">
-        <p class="index-copyright__autor">© Александр Лычик <span>создано с любовью | 2017<span></p>
-      </div>
+      </footer>
     </div>
     <script src="/assets/js/foundation.js" defer="defer"></script>
     <script src="/assets/js/app.js" defer="defer"></script>

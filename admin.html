@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Welcome</title>
+    <title></title>
     <meta content="" name="author"/>
     <meta content="" name="description"/>
     <meta content="" name="keywords"/>
@@ -22,100 +22,78 @@
         </div>
       </div>
     </div>
-    <div class="index-wrapper"><?php echo('hello')?>
-      <div class="parallax">
-        <div class="parallax__layer"></div>
-        <div class="parallax__layer"></div>
-        <div class="parallax__layer"></div>
-        <div class="parallax__layer"></div>
-        <div class="parallax__layer"></div>
-        <div class="parallax__layer"></div>
-      </div><span id="authorization-button">Авторизоваться</span>
-      <div class="index-content">
-        <div class="plate" id="plate">
-          <div class="index-content-box plate-front">
-            <div class="index-content-main">
-              <div class="ava"><img class="ava__img" src="/assets/img/ava.jpg" alt="avatar"/></div>
-              <div class="autor">
-                <h1 class="autor__name">Александр Лычик</h1>
-                <h3 class="autor__description">Личный сайт веб разработчика</h3>
-              </div>
-              <div class="social">
-                <ul class="social__list">
-                  <li class="social__item">
-                    <svg>
-                      <use xlink:href="#vk_icon"></use>
-                    </svg>
-                  </li>
-                  <li class="social__item"> 
-                    <svg>
-                      <use xlink:href="#git_icon"></use>
-                    </svg>
-                  </li>
-                  <li class="social__item">
-                    <svg>
-                      <use xlink:href="#in_icon"></use>
-                    </svg>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <nav class="index-nav">
-              <ul class="index-nav__list">
-                <li class="index-nav__item-works">Мои работы<a href="works.html"></a></li>
-                <li class="index-nav__item-about">Обо мне<a href="about.html"></a></li>
-                <li class="index-nav__item-blog">Блог<a href="blog.html"></a></li>
-              </ul>
-            </nav>
+    <div class="admin-wrapper">
+      <div class="admin-wrapper-box">
+        <header class="admin-header">
+          <div class="admin-header-top-box">
+            <h1>Панель администрирования</h1><a href="exit.html" id="admin-exit">Вернуться на сайт</a>
           </div>
-          <div class="login-wrapper plate-back">
-            <div class="login-box">
-              <form class="login-form" id="login-form" action="admin.html" method="post">
-                <h1 class="login-form__header">Авторизуйтесь</h1>
-                <div class="login-form__login">
-                  <label for="login">
-                    <svg>
-                      <use xlink:href="#login_icon"></use>
-                    </svg>
-                  </label>
-                  <input id="login" maxlength="14" type="text" placeholder="Логин" name="login"/>
-                </div>
-                <div class="login-form__password">
-                  <label for="password">
-                    <svg>
-                      <use xlink:href="#password_icon"></use>
-                    </svg>
-                  </label>
-                  <input id="password" maxlength="14" type="password" placeholder="Пароль" name="pas"/>
-                </div>
-                <div class="login-form-checks-wrapper">
-                  <p class="checkbox-box">
-                    <input type="checkbox" id="loginform_check"/>
-                    <label for="loginform_check">Я человек</label>
-                  </p>
-                  <div class="login-form__radio">
-                    <p>Вы точно не робот?</p>
-                    <input type="radio" id="radio_yes" name="answer" value="true"/>
-                    <label for="radio_yes">Да<span></span></label>
-                    <input checked="checked" type="radio" id="radio_no" name="answer" value="false"/>
-                    <label for="radio_no">Не уверен</label>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <nav class="login-nav">
-              <ul class="login-nav__list">
-                <li class="login-nav__to-main" id="to-main-but">Назад</li>
-                <li class="login-nav__enter">Войти
-                  <input type="submit" name="login-nav__enter" value="" form="login-form" id="login-nav__enter"/>
-                </li>
-              </ul>
-            </nav>
-          </div>
+          <nav class="admin-nav">
+            <ul class="admin-nav__list clearfix">
+              <li class="admin-nav__item active">Обо мне</li>
+              <li class="admin-nav__item">Блог</li>
+              <li class="admin-nav__item">Мои работы</li>
+            </ul>
+          </nav>
+        </header>
+        <div class="admin-content">
+          <form class="admin-form admin-about-me" id="admin-about-me">
+            <h3>Страница "Обо мне"</h3>
+            <fieldset class="admin-about-me-box">Frontend
+              <label class="admin-about-me-label" for="skill_html">Html
+                <input type="text" maxlength="3" id="skill_html"/>
+              </label>
+              <label class="admin-about-me-label" for="skill_html">CSS
+                <input type="text" maxlength="3" id="skill_css"/>
+              </label>
+              <label class="admin-about-me-label" for="skill_html">javaScript
+                <input type="text" maxlength="3" id="skill_js"/>
+              </label>
+            </fieldset>
+            <fieldset class="admin-about-me-box">Backend
+              <label class="admin-about-me-label" for="skill_html">PHP
+                <input type="text" maxlength="3" id="skill_html"/>
+              </label>
+              <label class="admin-about-me-label" for="skill_html">Node.js
+                <input type="text" maxlength="3" id="skill_css"/>
+              </label>
+              <label class="admin-about-me-label" for="skill_html">Mongo.db
+                <input type="text" maxlength="3" id="skill_js"/>
+              </label>
+            </fieldset>
+            <fieldset class="admin-about-me-box">Workflow
+              <label class="admin-about-me-label" for="skill_html">Git
+                <input type="text" maxlength="3" id="skill_html"/>
+              </label>
+              <label class="admin-about-me-label" for="skill_html">Gulp
+                <input type="text" maxlength="3" id="skill_css"/>
+              </label>
+              <label class="admin-about-me-label" for="skill_html">Bower
+                <input type="text" maxlength="3" id="skill_js"/>
+              </label>
+            </fieldset>
+            <div><span id="admin-about-me__save">Сохранить</span></div>
+          </form>
+          <form class="admin-form admin-blog" id="admin-blog">
+            <h3>Страница "Блог"</h3>
+            <p>Добавить запись</p>
+            <input type="text" placeholder="Название" id="admin-blog__article-title"/>
+            <input type="text" placeholder="дата" id="admin-blog__article-data"/>
+            <textarea rows="8" cols="50" placeholder="Содержание" id="admin-blog__article-content"></textarea><span id="admin-blog__save">Добавить</span>
+          </form>
+          <form class="admin-form admin-works" id="admin-works">
+            <h3>Страница "Мои работы"</h3>
+            <p>Добавить Работу</p>
+            <input type="text" placeholder="Название проекта" id="admin-works__project-title"/>
+            <input type="text" placeholder="Технологии" id="admin-works__project-technologies"/>
+            <input type="text" placeholder="Ссылка" id="admin-works__project-link"/>
+            <p>
+              <label class="admin-works__project-select-image">Выбрать картинку
+                <input type="file" id="admin-works__project-select-image"/>
+              </label>
+            </p><span id="admin-works__save">Добавить</span>
+          </form>
         </div>
-      </div>
-      <div class="index-copyright">
-        <p class="index-copyright__autor">© Александр Лычик <span>создано с любовью | 2017<span></p>
       </div>
     </div>
     <script src="/assets/js/foundation.js" defer="defer"></script>
