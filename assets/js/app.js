@@ -1,5 +1,5 @@
 'use strict';
-$(window).ready(function () {
+$(document).ready(function () {
   ////////////////// плавный скрол ///////////////////////////
   $('a[href^="#"]').click(function(){
     var elementClick = $(this).attr('href');
@@ -130,10 +130,10 @@ $(window).ready(function () {
     }
     var
       arr = $('.main-nav-list-item'),
-      arr_length = arr.length;
+      arr_length = arr.length,
+      fontSize = $(arr[0]).css('font-size');
 
     function show_menu(){
-      var fontSize = $('.main-nav-list-item').css('font-size');
       menuButton.addClass('menu-button-close');
       $(arr).find('a').css('font-size', '0');
       var current = 0;
