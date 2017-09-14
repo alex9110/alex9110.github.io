@@ -133,7 +133,7 @@ $(window).ready(function () {
       arr_length = arr.length;
 
     function show_menu(){
-      var fontSize = $(arr[0]).css('font-size');
+      var fontSize = $('.main-nav-list-item').css('font-size');
       menuButton.addClass('menu-button-close');
       $(arr).find('a').css('font-size', '0');
       var current = 0;
