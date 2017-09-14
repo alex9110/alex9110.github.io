@@ -130,11 +130,10 @@ $(window).ready(function () {
     }
     var
       arr = $('.main-nav-list-item'),
-      arr_length = arr.length,
-      fontSize = $(arr[0]).css('font-size');
-      console.log(fontSize);
+      arr_length = arr.length;
 
     function show_menu(){
+      var fontSize = $(arr[0]).css('font-size');
       menuButton.addClass('menu-button-close');
       $(arr).find('a').css('font-size', '0');
       var current = 0;
@@ -144,9 +143,9 @@ $(window).ready(function () {
         $('#main-nav').addClass('block');
         var timerId = setInterval(function(){
           var a = $(arr[current]).find('a');
-          a.animate({'font-size':fontSize}, { 
+          a.animate({'font-size':fontSize}, {
+            duration:transition
           });
-          console.log(fontSize);
           if (current >= arr_length-1) {
             clearTimeout(timerId);
           }
