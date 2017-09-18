@@ -22,6 +22,9 @@
         </div>
       </div>
     </div>
+    <div class="hidden" id="pop_up"><span id="pop_up-button"></span>
+      <div id="pop_up-content">какая то ошибка<br> ещё ошибка</div>
+    </div>
     <div class="works-wrapper">
       <section class="section-header"><a id="hidden-link-top" name="hidden-link-top"></a>
         <header class="portfolio_header">
@@ -90,10 +93,10 @@
           <div class="work-description">
             <div class="work-description-box">
               <div class="work-description__title">
-                <h2 class="animateText">Сайт школы онлайн <br>образования</h2>
+                <h2 class="animateText">Work title</h2>
               </div>
               <div class="work-description__technologies">
-                <p class="animateText">html, css, javascript</p>
+                <p class="animateText">description technologies</p>
               </div>
               <div class="work-description__botton">Посмотреть сайт<a href="#"></a>
                 <svg>
@@ -108,21 +111,21 @@
                 <li class="slider__images-item">
                   <div class="slider__image-description">
                     <h2>Сайт школы онлайн образования</h2>
-                    <p>html, css, javascript</p>
+                    <p>html, css, javascript</p><a href="https://www.facebook.com/AleksandrLychyk" target="_blank"></a>
                   </div>
                   <h1>1</h1><img src="/assets/img/works_image/work_1.png" alt="work_1"/>
                 </li>
                 <li class="slider__images-item">
                   <div class="slider__image-description">
                     <h2>Сайт круче первого номер 2</h2>
-                    <p>html html html</p>
+                    <p>html html html</p><a href="https://www.facebook.com/AleksandrLychyk" target="_blank"></a>
                   </div>
                   <h1>2</h1><img src="/assets/img/works_image/work_2.png" alt="work_2"/>
                 </li>
                 <li class="slider__images-item">
                   <div class="slider__image-description">
                     <h2>Проэкт круче крутых яиц номер 3</h2>
-                    <p>jquery jquery jquery</p>
+                    <p>jquery jquery jquery</p><a href="https://www.facebook.com/AleksandrLychyk" target="_blank"></a>
                   </div>
                   <h1>3</h1><img src="/assets/img/works_image/work_0.jpg" alt="work_3"/>
                 </li>
@@ -160,8 +163,8 @@
         </div>
       </section>
       <section class="section-contact-form">
-        <div class="contact-form-box">
-          <form class="contact-form">
+        <div class="contact-form-box" id="contact-form-box">
+          <form class="contact-form" id="contact-form">
             <div class="contact-form__header">Связаться со мной</div>
             <input id="name" type="text" name="name" placeholder="Имя"/>
             <input id="mail" type="email" name="mail" placeholder="Email"/>
@@ -169,7 +172,7 @@
           </form>
           <div class="contact-form__buttons">  
             <input id="send-message" type="button" value="Отправить"/>
-            <input id="reset" type="reset" value="Очистить"/>
+            <input id="reset" type="button" value="Очистить"/>
           </div>
           <div class="blur">
             <div class="blur__bg"></div>
