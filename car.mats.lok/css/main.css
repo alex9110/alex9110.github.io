@@ -838,6 +838,17 @@ footer{
   .line{
     display: none;
   }
+  .name span{
+    display: none;
+  }
+  .name{
+    width: 100%;
+    text-align: center;
+  }
+  .name p {
+    float: none;
+    display: inline-block;
+  }
 	.left, .right{
   	width: 320px;
   	margin:0;
@@ -845,8 +856,8 @@ footer{
 	}
   .image{
     margin: 0 0 20px 10px;
-    width: 40vw;
-    height: 40vw;
+    width: 35vw;
+    height: 35vw;
   }
 	.image:nth-child(odd){
   	margin: 0 10px 20px 0;
@@ -856,6 +867,18 @@ footer{
     margin: 0;
     text-align: center;
   }
+  .collor div:first-child{
+    width: 100%;
+    text-align: center;
+  }
+  .collor div:first-child span{
+    display: none;
+  }
+  .collor div:first-child p{
+    display: inline-block;
+    float: none;
+  }
+
   .type ul span{
     margin: 0 13px 0 0;
   }
@@ -867,9 +890,24 @@ footer{
     display: inline-block;
     text-align: right;
   }
+  .thread div:first-child{
+    width: 100%;
+    text-align: center;
+  }
+  .thread div:first-child p{
+    display: inline-block;
+    float: none;
+  }
+  .thread div:first-child span{
+    display: none;
+  }
   .treatment p{
     letter-spacing: 4.9px;
     text-align: center;
+  }
+  .minGalery li{
+    float: none;
+    display: inline-block;
   }
   .ask{
     outline: solid 0px #000;
@@ -891,6 +929,17 @@ footer{
     top: 10px;
     width: 20px;
     height: 20px;
+  }
+  #whyWe{
+    width: 100%;
+    text-align: center;
+  }
+  #whyWe span{
+    display: none;
+  }
+  #whyWe p{
+    display: inline-block;
+    float: none;
   }
   .article p{
     padding-bottom: 20px;
@@ -917,6 +966,9 @@ footer{
     float: none;
     width: 80%;
     margin-bottom: 20px;
+  }
+  .logoF{
+    display: none;
   }
   .phone{
     margin-right: 5px;
