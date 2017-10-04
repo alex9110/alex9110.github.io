@@ -889,6 +889,26 @@ footer{
   .mail{
     margin:23px 0 0 5px;
   }
+  .bigForm{
+    text-align: center;
+  }
+  .biginput{
+    border: 1px solid #F1F1F1;
+    border-radius: 7px;
+    width: 70%;
+    margin: 0 0 10px 0;
+    padding: 0 5%;
+    float: none;
+    display: inline-block;
+  }
+  .bigBat{
+    background-size: auto 500%;
+    background-position: 50% 8px;
+    height: 60px;
+    float: none;
+    width: 80%;
+    margin-bottom: 20px;
+  }
   .phone{
     margin-right: 5px;
   }
