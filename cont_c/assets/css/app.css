@@ -25,10 +25,6 @@
 
 @font-face {
   font-family: ProximaNova-Regular;
-  src: local("ProximaNova-Regular"), url("../fonts/fonts/ProximaNova-Regular.svg"); }
-
-@font-face {
-  font-family: ProximaNova-Regular;
   src: local("ProximaNova-Regular"), url("../fonts/fonts/ProximaNova-Regular.ttf"); }
 
 @font-face {
@@ -249,10 +245,10 @@ h1, h2, h3, h4, h5 {
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s; }
-  .nav-list .main-nav__item:hover {
+  /*.nav-list .main-nav__item:hover {
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
-            transform: scale(1.1); }
+            transform: scale(1.1); }*/
 
 .nav-list .main-nav__item:hover::before {
   width: 100%; }
