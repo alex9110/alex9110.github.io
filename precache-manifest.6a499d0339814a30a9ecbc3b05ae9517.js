@@ -48,16 +48,16 @@ self.__precacheManifest = [
     "url": "/static/media/i_camera.3a83f5b0.svg"
   },
   {
-    "revision": "3885c0cebfbc3e55fbe30ad45a165586",
-    "url": "/static/media/AvenirNext-Medium.3885c0ce.ttf"
+    "revision": "88da9ccecc9a384876ccf7c53eccec2d",
+    "url": "/static/media/AvenirNext-Bold.88da9cce.ttf"
   },
   {
     "revision": "1f1c6c5055bfc41663d1d1adf4b29604",
     "url": "/static/media/AvenirNext-Regular.1f1c6c50.ttf"
   },
   {
-    "revision": "88da9ccecc9a384876ccf7c53eccec2d",
-    "url": "/static/media/AvenirNext-Bold.88da9cce.ttf"
+    "revision": "3885c0cebfbc3e55fbe30ad45a165586",
+    "url": "/static/media/AvenirNext-Medium.3885c0ce.ttf"
   },
   {
     "revision": "f4d17ad30930b87eb3ff0b39216422df",
